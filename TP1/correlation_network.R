@@ -7,7 +7,8 @@ library(Hmisc)
 
 data(hematoData)
 
-data <- scale(as.matrix(hematoData))
+#data <- scale(as.matrix(hematoData))
+data <- as.matrix(hematoData)
 
 hematopoietic <- c("Runx1", "Ikaros", "Myb", "Cbfa2t3h", "Gata1", "Mitf", "Nfe2", "Gfi1b", "Sfpi1", "Gfi1")
 endothelial <- c("Erg", "Sox17", "Notch1", "Tbx3", "Tbx20", "Sox7", "HoxB4")
@@ -18,7 +19,7 @@ res_corr <- rcorr(data, type="pearson")
 #################################################
 # Functions
 #################################################
-plot_graph <- function(adjacency_matrix){
+plot_graph <- function(adjacency_matrix, my_layout=layout_with_lgl){
   # Make graph
   graph <- graph_from_adjacency_matrix(adjacency_matrix, diag = FALSE, weight = TRUE, mode = "undirected")
   
@@ -31,12 +32,6 @@ plot_graph <- function(adjacency_matrix){
   #deg <- degree(graph, mode = "all")
   #V(graph)$size <- deg/std(deg)*20
   
-  # Layout
-  #my_layout <- layout_with_dh
-  #my_layout <- layout_with_gem
-  #my_layout <- layout_with_graphopt
-  my_layout <- layout_with_lgl
-  
   # Plot
   plot(graph, layout=my_layout, edge.arrow.size=0.25)
 }
@@ -44,6 +39,9 @@ plot_graph <- function(adjacency_matrix){
 
 
 
+#################################################
+# Correlation Network
+#################################################
 res_corr_filter <- res_corr$r
 
 # Filter edges with a threshold
@@ -53,24 +51,60 @@ res_corr_filter[abs(res_corr$r) < thresh] <- 0
 # Filter edges according the p-value
 #res_corr_filter[res_corr$P > 0.05] <- 0
 
-# Filter edges by keeping highest values
+# Filter edges by keeping extreme values
 my_order <- t(apply(res_corr_filter, MARGIN=1, FUN=rank))
 
 to_keep <- 5
-to_keep <- 4
-to_keep <- 3
+#to_keep <- 4
+#to_keep <- 3
 
-res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep)] <- 0
-res_corr_filter[my_order > to_keep & res_corr_filter > 0] <- 0
+#res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep)] <- 0
+#res_corr_filter[my_order > to_keep & res_corr_filter > 0] <- 0
 #res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep & res_corr_filter > 0] <- 0
-res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep & res_corr_filter > 0] <- 0
+#res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep & res_corr_filter > 0] <- 0
 res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep-1 | (my_order < to_keep-1 & res_corr_filter > 0)] <- 0
-res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep-1 | (my_order < to_keep-2 & res_corr_filter > 0)] <- 0
-res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep | (my_order < to_keep & res_corr_filter > 0)] <- 0
+#res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep-1 | (my_order < to_keep-2 & res_corr_filter > 0)] <- 0
+#res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep) & my_order > to_keep | (my_order < to_keep & res_corr_filter > 0)] <- 0
 
 plot_graph(res_corr_filter)
 
 
+
+#################################################
+# Partial Correlation Network
+#################################################
+res_corr_filter <- res_corr$r
+#lambda <- 0.01
+#diag(res_corr_filter) <- diag(res_corr_filter) + lambda
+
+res_corr_filter <- solve(res_corr_filter)
+
+# Filter edges with a threshold
+thresh = 0.03
+res_corr_filter[abs(res_corr$r) < thresh] <- 0
+
+# Filter edges by keeping extreme values
+my_order <- t(apply(res_corr_filter, MARGIN=1, FUN=rank))
+
+to_keep <- 2
+neg_offset <- 0
+pos_offset <- 1
+#res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep)] <- 0
+res_corr_filter[my_order < (ncol(res_corr_filter) - to_keep + pos_offset) & my_order > to_keep-neg_offset | (my_order < to_keep-neg_offset & res_corr_filter > 0)] <- 0
+
+plot_graph(res_corr_filter)
+
+
+
+# Layout
+my_layout <- layout_with_dh
+my_layout <- layout_with_gem
+my_layout <- layout_with_graphopt
+
+plot_graph(res_corr_filter, my_layout=my_layout)
+
+
+#################################################
 
 # Test many layout to find the best ones
 #layout_list_names <- c("layout_as_bipartite", "layout_as_star", "layout_as_tree", "layout_in_circle", "layout_nicely", "layout_on_grid", "layout_on_sphere", "layout_randomly", "layout_with_dh", "layout_with_fr", "layout_with_gem", "layout_with_graphopt", "layout_with_kk", "layout_with_lgl", "layout_with_mds", "layout_with_sugiyama")
