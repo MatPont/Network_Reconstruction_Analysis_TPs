@@ -4,6 +4,27 @@ library(pcalg)
 
 data(insurance)
 
+compute_statistics <- function(adj_1, adj_2, do_print=TRUE){
+  tp <- sum(adj_1 == adj_2 & adj_1 != 0 & adj_2 != 0)
+  fp <- sum(adj_1 != adj_2 & adj_2 != 0)
+  fn <- sum(adj_1 != adj_2 & adj_1 != 0)
+  precision <- tp / (tp + fp)
+  recall <- tp / (tp + fn)
+  fscore <- 2 * (precision * recall) / (precision + recall)
+  
+  if(do_print){
+    cat("TP        = ", tp, "\n", sep=" ")
+    cat("FP        = ", fp, "\n", sep=" ")
+    cat("FN        = ", fn, "\n", sep=" ")
+    cat("Precision = ", precision, "\n", sep=" ")
+    cat("Recall    = ", recall, "\n", sep=" ")
+    cat("Fscore    = ", fscore, "\n", sep=" ")
+  }
+  
+  return(c("tp"=tp, "fp"=fp, "fn"=fn, "precision"=precision, "recall"=recall, 
+           "fscore"=fscore))
+}
+
 #######
 # 1
 #######
@@ -25,22 +46,57 @@ dag = model2network(modelstring)
 typeof(dag)
 dag
 # d
-real_adjacency_matrix <- amat(dag)
+real_adj <- amat(dag)
+real_adj <- amat(cpdag(dag))
 # e
-real_graph <- graph_from_adjacency_matrix(real_adjacency_matrix)
-plot(real_graph, edge.arrow.size=0.25)
-
+real_graph <- graph_from_adjacency_matrix(real_adj)
+plot(real_graph, edge.arrow.size=0.1)
 
 
 #######
 # 2
 #######
 # b
-res_hc <- hc(insurance)
+hc_res <- hc(insurance)
 # c
-adjacency_matrix <- amat(dag)
+hc_adj <- amat(hc_res)
 # d
-graph <- graph_from_adjacency_matrix(adjacency_matrix)
-plot(graph, edge.arrow.size=0.25, layout=layout_with_lgl)
+hc_graph <- graph_from_adjacency_matrix(hc_adj)
+plot(hc_graph, edge.arrow.size=0.1, layout=layout_with_lgl)
 # e
-     
+hc_stats <- compute_statistics(real_adj, hc_adj)
+# f
+
+# g
+   
+
+
+#######
+# 3
+#######
+# a
+
+# b
+pc_adj <- amat(pc_res)
+# c
+pc_graph <- graph_from_adjacency_matrix(pc_adj)
+plot(pc_graph, edge.arrow.size=0.1, layout=layout_with_lgl)
+# d
+
+# e
+
+
+
+#######
+# 4
+#######
+# a
+aracne_res <- aracne(insurance)
+# b
+aracne_adj <- amat(aracne_res)
+# c
+aracne_graph <- graph_from_adjacency_matrix(aracne_adj)
+plot(aracne_graph, edge.arrow.size=0.1, layout=layout_with_lgl)
+# d
+
+# e
