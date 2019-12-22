@@ -81,17 +81,26 @@ plot_graph <- function(bnObject, bnObject_adj=NULL, area_ratio=8, size_offset=7,
     V(graph)$label.font <- ifelse(V(graph) %in% V(graph)[nodes], 2, 1)
   }
   
-  # Manage if both highlight are requested
-  # if(highlight_betweenness & highlight_link_muta_expr){
-  #   E(graph)$color <- ifelse(betweenness_edges_condition & link_muta_expr_edges_condition, "darkred", 
-  #                            ifelse(betweenness_edges_condition, "black", 
-  #                                   ifelse(link_muta_expr_edges_condition, "red", "gray")))
-  # }
-  
   # Customize size
   deg <- degree(graph, mode = "all")  
   V(graph)$size <- log(deg)*size_ratio + size_offset
   E(graph)$curved <- FALSE
+  
+  if(miic){
+    x <- miic.res$retained.edges.summary$x[miic.res$retained.edges.summary$partial_correlation < 0]
+    y <- miic.res$retained.edges.summary$y[miic.res$retained.edges.summary$partial_correlation < 0]
+    t <- apply(cbind(x, y), MARGIN=1, FUN=function(x){ paste(x, collapse="|") } )
+    edges <- as.matrix(attr(E(graph), "vnames"))
+    miic_condition <- edges %in% t
+    E(graph)$color <- ifelse(miic_condition, "red", "gray")
+  }
+  
+  # Manage if highlight betweeness and miic are requested
+  if(highlight_betweenness & miic){
+    E(graph)$color <- ifelse(betweenness_edges_condition & miic_condition, "darkred",
+                             ifelse(betweenness_edges_condition, "black",
+                                    ifelse(miic_condition, "red", "gray")))
+  }
   
   # Remove node with 0 degree
   graph <- delete.vertices(graph, which(deg==0))    
@@ -103,7 +112,8 @@ plot_graph <- function(bnObject, bnObject_adj=NULL, area_ratio=8, size_offset=7,
                                               repulse.rad=(vcount(graph)^3.1))
   
   # Plot
-  plot(graph, edge.arrow.size=0.12, layout=layout) 
+  edge_arrow_size = ifelse(miic, 0.12, 0.12)
+  plot(graph, edge.arrow.size=edge_arrow_size, layout=layout) 
 }
 
 
@@ -161,8 +171,10 @@ print_carac <- function(bnObject, bnObject_adj=NULL){
   edges <- bnObject$arcs[ (bnObject$arcs[,1]==toupper(bnObject$arcs[,1]) & bnObject$arcs[,2]==tolower(bnObject$arcs)[,2]) |
                                  (bnObject$arcs[,2]==toupper(bnObject$arcs[,2]) & bnObject$arcs[,1]==tolower(bnObject$arcs)[,1]), ]
   nodes <- unique(c(edges))
+  nodes <- nodes[nodes == tolower(nodes)]
   print("======= 4) Mutated genes (lower case nodes) that are related to gene expression (upper case nodes)")
-  print(nodes[nodes == tolower(nodes)])
+  print(nodes)
+  print(rev(sort(table(edges)[nodes])))
 }
 
 
@@ -217,7 +229,7 @@ col <- names(pc_data)
 pc_data[col] <- lapply(pc_data[col], FUN=function(x){ as.integer(x)-1 } )
 
 nlev=apply(pc_data, MARGIN=2, FUN=function(x){ length(attr(as.factor(x), "levels")) })
-pc_res <- pc(suffStat=list(dm = pc_data, nlev=nlev, adaptDF = FALSE), indepTest=disCItest, alpha=0.01, labels=colnames(pc_data))
+pc_res <- pc(suffStat=list(dm = pc_data, nlev=nlev, adaptDF = FALSE), indepTest=disCItest, alpha=0.05, labels=colnames(pc_data))
 
 pc_adj <- as(pc_res, "amat")
 pc_graph <- graph_from_adjacency_matrix(pc_adj)
@@ -236,6 +248,24 @@ plot_graph(as.bn(pc_res), size_offset=7, size_ratio=2, area_ratio=10, highlight_
 plot_graph(as.bn(pc_res, check.cycles = FALSE), size_offset=7, size_ratio=2, area_ratio=10, highlight_betweenness=T, highlight_link_muta_expr=T)
 
 
+# ------- Get pValue
+#ploidy_ind <- which(attr((attr(pc_res, "graph")), "nodes") == "Ploidy")
+nodes <- attr((attr(pc_res, "graph")), "nodes")
+colnames(attr(pc_res, "pMax")) <- nodes
+rownames(attr(pc_res, "pMax")) <- nodes
+pmat <- attr(pc_res, "pMax")
+
+pmat["GMPS", "tp53"]
+pmat["tp53", "AURKA"]
+pmat["tp53", "NDRG1"]
+pmat["lin9", "MDM2"]
+pmat["flt1", "BIRC3"]
+pmat["erbb2", "CDC42BPA"]
+pmat["MET", "scube2"]
+
+pmat["Ploidy", "PPP2R2A"]
+pmat["PPP2R2A", "Ploidy"]
+
 ########################################################
 # Network reconstruction with the MIIC approach
 ########################################################
@@ -243,8 +273,14 @@ plot_graph(as.bn(pc_res, check.cycles = FALSE), size_offset=7, size_ratio=2, are
 data(cosmicCancer)
 data(cosmicCancer_stateOrder)
 # execute MIIC (reconstruct graph)
+confidenceShuffle <- 100
+confidenceThreshold <- 0.001
 miic.res = miic(inputData = cosmicCancer, categoryOrder = cosmicCancer_stateOrder, latent = TRUE,
-                confidenceShuffle = 100, confidenceThreshold = 0.001)
+                confidenceShuffle = confidenceShuffle, confidenceThreshold = confidenceThreshold)
+
+plot_graph(miic.res, bnObject_adj=miic.res$adjMatrix, size_offset=7, size_ratio=2, 
+           area_ratio=10, highlight_betweenness=T, highlight_link_muta_expr=T, miic=TRUE)
+
 
 print_carac(miic.res, miic.res$adjMatrix)
 
@@ -259,4 +295,20 @@ plot_graph(miic.res, bnObject_adj=miic.res$adjMatrix, size_offset=7, size_ratio=
 #miic.write.network.cytoscape(g = miic.res, file = file.path(tempdir(),"/temp"))
 
 
-miic.write.network.cytoscape(g = miic.res, file = file.path(tempdir(),"/temp"))
+miic.write.network.cytoscape(g = miic.res, file = paste("miic.cyto_", confidenceShuffle, "_", confidenceThreshold, sep=""))
+
+
+# Get partial correlaton and log confidence of edge between genes of different groups (mutated and over/under expressed)
+cond <- (miic.res$retained.edges.summary$x == tolower(miic.res$retained.edges.summary$x) & miic.res$retained.edges.summary$y == toupper(miic.res$retained.edges.summary$y)) | 
+  (miic.res$retained.edges.summary$x == toupper(miic.res$retained.edges.summary$x) & miic.res$retained.edges.summary$y == tolower(miic.res$retained.edges.summary$y))
+
+res <- miic.res$retained.edges.summary[cond,]
+cbind(res$x[res$partial_correlation < 0], res$y[res$partial_correlation < 0])
+
+cbind(res$x, res$y, res$log_confidence, res$partial_correlation)
+
+
+# Get partial correlation and log confidence of dege involving "Ploidy"
+cond <- miic.res$retained.edges.summary$x == "Ploidy" | miic.res$retained.edges.summary$y == "Ploidy"
+res <- miic.res$retained.edges.summary[cond,]
+cbind(res$x, res$y, res$log_confidence, res$partial_correlation)

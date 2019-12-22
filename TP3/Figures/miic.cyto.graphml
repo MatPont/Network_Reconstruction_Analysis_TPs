@@ -1,0 +1,2571 @@
+<graphml>
+	<key id="weight" for="node" attr.name="weight" attr.type="double">
+		<default>0.2</default>
+	</key>
+	<key id="label" for="node" attr.name="label" attr.type="string"/>
+	<key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+	<key id="label" for="edge" attr.name="label" attr.type="string"/>
+	<key id="sourceArrowShape" for="edge" attr.name="sourceArrowShape" attr.type="string"/>
+	<key id="targetArrowShape" for="edge" attr.name="targetArrowShape" attr.type="string"/>
+	<key id="upstream" for="edge" attr.name="upstream" attr.type="string"/>
+	<key id="complexity" for="edge" attr.name="complexity" attr.type="double"/>
+	<key id="nSamples" for="edge" attr.name="nSamples" attr.type="int"/>
+	<key id="log_confidence" for="edge" attr.name="log_confidence" attr.type="double"/>
+	<key id="confidenceRatio" for="edge" attr.name="confidenceRatio" attr.type="double"/>
+	<key id="sign" for="edge" attr.name="sign" attr.type="string"/>
+	<key id="partialCorrelation" for="edge" attr.name="partialCorrelation" attr.type="double"/>
+	<key id="edgeType" for="edge" attr.name="edgeType" attr.type="int"/>
+
+	<graph edgedefault="directed">
+		<node id="bbc3">
+			<data key="label">bbc3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="egln1">
+			<data key="label">egln1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="tgfb3">
+			<data key="label">tgfb3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="esm1">
+			<data key="label">esm1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="igfbp5">
+			<data key="label">igfbp5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="fgf18">
+			<data key="label">fgf18</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="scube2">
+			<data key="label">scube2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="wisp1">
+			<data key="label">wisp1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="flt1">
+			<data key="label">flt1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="hrasls">
+			<data key="label">hrasls</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="stk32b">
+			<data key="label">stk32b</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="rassf7">
+			<data key="label">rassf7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="dck">
+			<data key="label">dck</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="melk">
+			<data key="label">melk</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ext1">
+			<data key="label">ext1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="gnaz">
+			<data key="label">gnaz</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ebf4">
+			<data key="label">ebf4</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="mtdh">
+			<data key="label">mtdh</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="pitrm1">
+			<data key="label">pitrm1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="qscn6l1">
+			<data key="label">qscn6l1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ccne2">
+			<data key="label">ccne2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ect2">
+			<data key="label">ect2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="cenpa">
+			<data key="label">cenpa</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="lin9">
+			<data key="label">lin9</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="kntc2">
+			<data key="label">kntc2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="mcm6">
+			<data key="label">mcm6</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="nusap1">
+			<data key="label">nusap1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="orc6l">
+			<data key="label">orc6l</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="tspyl5">
+			<data key="label">tspyl5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="rundc1">
+			<data key="label">rundc1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="prc1">
+			<data key="label">prc1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="rfc4">
+			<data key="label">rfc4</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="recql5">
+			<data key="label">recql5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="cdca7">
+			<data key="label">cdca7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="dtl">
+			<data key="label">dtl</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="col4a2">
+			<data key="label">col4a2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="gpr180">
+			<data key="label">gpr180</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="mmp9">
+			<data key="label">mmp9</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="gpr126">
+			<data key="label">gpr126</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="rtn4rl1">
+			<data key="label">rtn4rl1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="diaph3">
+			<data key="label">diaph3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="cdc42bpa">
+			<data key="label">cdc42bpa</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="palm2">
+			<data key="label">palm2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="aldh4a1">
+			<data key="label">aldh4a1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="aytl2">
+			<data key="label">aytl2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="oxct1">
+			<data key="label">oxct1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="peci">
+			<data key="label">peci</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="gmps">
+			<data key="label">gmps</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="gstm3">
+			<data key="label">gstm3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="slc2a3">
+			<data key="label">slc2a3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="foxm1">
+			<data key="label">foxm1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="erbb2">
+			<data key="label">erbb2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="esr1">
+			<data key="label">esr1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="tp53">
+			<data key="label">tp53</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="rb1">
+			<data key="label">rb1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="myc">
+			<data key="label">myc</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="jun">
+			<data key="label">jun</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="cdkn2a">
+			<data key="label">cdkn2a</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="bcl2">
+			<data key="label">bcl2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="tp73">
+			<data key="label">tp73</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="lats2">
+			<data key="label">lats2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="mapk14">
+			<data key="label">mapk14</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="cdkn1a">
+			<data key="label">cdkn1a</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="chek1">
+			<data key="label">chek1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="aurkb">
+			<data key="label">aurkb</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="aurka">
+			<data key="label">aurka</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="brca1">
+			<data key="label">brca1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="brca2">
+			<data key="label">brca2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="dusp5">
+			<data key="label">dusp5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="mst1">
+			<data key="label">mst1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ppp1r13l">
+			<data key="label">ppp1r13l</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="birc3">
+			<data key="label">birc3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="tgfa">
+			<data key="label">tgfa</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ets1">
+			<data key="label">ets1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ets2">
+			<data key="label">ets2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="hif1a">
+			<data key="label">hif1a</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ldha">
+			<data key="label">ldha</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="foxo1">
+			<data key="label">foxo1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ndrg1">
+			<data key="label">ndrg1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ppp2r1a">
+			<data key="label">ppp2r1a</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ppp2r2a">
+			<data key="label">ppp2r2a</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ccne1">
+			<data key="label">ccne1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="apobec3b">
+			<data key="label">apobec3b</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="pten">
+			<data key="label">pten</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="mdm2">
+			<data key="label">mdm2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="usp7">
+			<data key="label">usp7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ube3a">
+			<data key="label">ube3a</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="spdye7p">
+			<data key="label">spdye7p</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="plk1">
+			<data key="label">plk1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="bax">
+			<data key="label">bax</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="met">
+			<data key="label">met</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="BBC3">
+			<data key="label">BBC3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="EGLN1">
+			<data key="label">EGLN1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="TGFB3">
+			<data key="label">TGFB3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ESM1">
+			<data key="label">ESM1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="IGFBP5">
+			<data key="label">IGFBP5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="FGF18">
+			<data key="label">FGF18</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="SCUBE2">
+			<data key="label">SCUBE2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="WISP1">
+			<data key="label">WISP1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="FLT1">
+			<data key="label">FLT1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="HRASLS">
+			<data key="label">HRASLS</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="STK32B">
+			<data key="label">STK32B</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="RASSF7">
+			<data key="label">RASSF7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="DCK">
+			<data key="label">DCK</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MELK">
+			<data key="label">MELK</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="EXT1">
+			<data key="label">EXT1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="GNAZ">
+			<data key="label">GNAZ</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MTDH">
+			<data key="label">MTDH</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PITRM1">
+			<data key="label">PITRM1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CCNE2">
+			<data key="label">CCNE2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ECT2">
+			<data key="label">ECT2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CENPA">
+			<data key="label">CENPA</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="LIN9">
+			<data key="label">LIN9</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MCM6">
+			<data key="label">MCM6</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="NUSAP1">
+			<data key="label">NUSAP1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="TSPYL5">
+			<data key="label">TSPYL5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="RUNDC1">
+			<data key="label">RUNDC1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PRC1">
+			<data key="label">PRC1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="RFC4">
+			<data key="label">RFC4</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="RECQL5">
+			<data key="label">RECQL5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CDCA7">
+			<data key="label">CDCA7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="DTL">
+			<data key="label">DTL</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="COL4A2">
+			<data key="label">COL4A2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="GPR180">
+			<data key="label">GPR180</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MMP9">
+			<data key="label">MMP9</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="GPR126">
+			<data key="label">GPR126</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="RTN4RL1">
+			<data key="label">RTN4RL1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="DIAPH3">
+			<data key="label">DIAPH3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CDC42BPA">
+			<data key="label">CDC42BPA</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PALM2">
+			<data key="label">PALM2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ALDH4A1">
+			<data key="label">ALDH4A1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="OXCT1">
+			<data key="label">OXCT1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="GMPS">
+			<data key="label">GMPS</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="GSTM3">
+			<data key="label">GSTM3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="SLC2A3">
+			<data key="label">SLC2A3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ERBB2">
+			<data key="label">ERBB2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ESR1">
+			<data key="label">ESR1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="TP53">
+			<data key="label">TP53</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="RB1">
+			<data key="label">RB1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MYC">
+			<data key="label">MYC</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="JUN">
+			<data key="label">JUN</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CDKN2A">
+			<data key="label">CDKN2A</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="BCL2">
+			<data key="label">BCL2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="FOXM1">
+			<data key="label">FOXM1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="BRCA1">
+			<data key="label">BRCA1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="TP73">
+			<data key="label">TP73</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="LATS2">
+			<data key="label">LATS2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MAPK14">
+			<data key="label">MAPK14</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CDKN1A">
+			<data key="label">CDKN1A</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CHEK1">
+			<data key="label">CHEK1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="BRCA2">
+			<data key="label">BRCA2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="AURKB">
+			<data key="label">AURKB</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="AURKA">
+			<data key="label">AURKA</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="APOBEC3B">
+			<data key="label">APOBEC3B</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="DUSP5">
+			<data key="label">DUSP5</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MST1">
+			<data key="label">MST1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PPP1R13L">
+			<data key="label">PPP1R13L</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="BIRC3">
+			<data key="label">BIRC3</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="TGFA">
+			<data key="label">TGFA</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ETS1">
+			<data key="label">ETS1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="ETS2">
+			<data key="label">ETS2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="HIF1A">
+			<data key="label">HIF1A</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="LDHA">
+			<data key="label">LDHA</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="FOXO1">
+			<data key="label">FOXO1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="NDRG1">
+			<data key="label">NDRG1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PPP2R1A">
+			<data key="label">PPP2R1A</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PPP2R2A">
+			<data key="label">PPP2R2A</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="CCNE1">
+			<data key="label">CCNE1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PTEN">
+			<data key="label">PTEN</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MDM2">
+			<data key="label">MDM2</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="USP7">
+			<data key="label">USP7</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="UBE3A">
+			<data key="label">UBE3A</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="PLK1">
+			<data key="label">PLK1</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="BAX">
+			<data key="label">BAX</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="MET">
+			<data key="label">MET</data>
+			<data key="weight">0.5</data>
+		</node>
+		<node id="Ploidy">
+			<data key="label">Ploidy</data>
+			<data key="weight">0.5</data>
+		</node>
+
+		<edge target="FOXM1" source="PRC1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">FOXM1--&gt;PRC1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.59111</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">99.66089</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.583543843081036</data>
+		</edge>
+		<edge target="GMPS" source="RFC4" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">GMPS--&gt;RFC4</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.63726</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">95.87794</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.556634036354223</data>
+		</edge>
+		<edge target="CDCA7" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CDCA7--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.52668</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">93.02182</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.57882868536296</data>
+		</edge>
+		<edge target="CCNE1" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CCNE1--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.49433</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">88.44067</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.584140782893458</data>
+		</edge>
+		<edge target="AURKB" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">AURKB--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.52916</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">88.06644</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.562901192228623</data>
+		</edge>
+		<edge target="AURKB" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">AURKB--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.48239</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">86.79171</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.582339618279845</data>
+		</edge>
+		<edge target="GMPS" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">GMPS--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.63726</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">84.02724</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.521292887907045</data>
+		</edge>
+		<edge target="MELK" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">MELK--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.50336</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">80.99784</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.555439888588585</data>
+		</edge>
+		<edge target="CDKN2A" source="CCNE1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CDKN2A--&gt;CCNE1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.37088</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">78.36362</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.588803302786989</data>
+		</edge>
+		<edge target="PLK1" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PLK1--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.44346</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">76.81234</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.53549562022091</data>
+		</edge>
+		<edge target="MCM6" source="CDCA7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">MCM6--&gt;CDCA7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.40697</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">75.79003</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.571691683071535</data>
+		</edge>
+		<edge target="AURKA" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">AURKA--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.62321</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">74.26599</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.484656189129236</data>
+		</edge>
+		<edge target="tp53" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">tp53--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.76619</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">74.20481</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.441175316943389</data>
+		</edge>
+		<edge target="GPR180" source="DIAPH3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">GPR180--&gt;DIAPH3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.43674</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">72.62896</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.548405687178218</data>
+		</edge>
+		<edge target="LIN9" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">LIN9--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.59955</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">68.07635</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.479536523686558</data>
+		</edge>
+		<edge target="RFC4" source="MCM6" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">RFC4--&gt;MCM6</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.49398</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">64.72402</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.487832823627012</data>
+		</edge>
+		<edge target="PRC1" source="NUSAP1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PRC1--&gt;NUSAP1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.47434</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">64.50936</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.497100197887536</data>
+		</edge>
+		<edge target="CHEK1" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CHEK1--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.48533</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">57.65087</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.452265143421068</data>
+		</edge>
+		<edge target="RB1" source="MCM6" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">RB1--|MCM6</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.35716</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">54.44764</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.432154124811783</data>
+		</edge>
+		<edge target="MTDH" source="CCNE2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">MTDH--&gt;CCNE2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.75459</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">51.85841</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.37208615032495</data>
+		</edge>
+		<edge target="ECT2" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">ECT2--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.62312</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">50.36088</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.406168503707651</data>
+		</edge>
+		<edge target="ECT2" source="BRCA2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">ECT2--&gt;BRCA2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.49137</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">50.19243</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.432617441348831</data>
+		</edge>
+		<edge target="CCNE2" source="ECT2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CCNE2--&gt;ECT2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.6083</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">49.458</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.406102414442597</data>
+		</edge>
+		<edge target="BRCA2" source="DIAPH3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">BRCA2--&gt;DIAPH3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.40822</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">49.08978</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.454664975240546</data>
+		</edge>
+		<edge target="NDRG1" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">NDRG1--&gt;tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.77487</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">45.00833</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.350507251423342</data>
+		</edge>
+		<edge target="CCNE2" source="AURKA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CCNE2--&gt;AURKA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.67874</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">45.00736</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.373346073314523</data>
+		</edge>
+		<edge target="TP53" source="AURKB" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">TP53--&gt;AURKB</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.50343</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">41.49537</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.00561090092306952</data>
+		</edge>
+		<edge target="PRC1" source="DIAPH3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PRC1--&gt;DIAPH3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.49381</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">41.46549</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.393169998966069</data>
+		</edge>
+		<edge target="RFC4" source="HRASLS" directed="false">
+			<data key="label">RFC4---HRASLS</data>
+			<data key="edgeType">1</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.49099</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">40.29121</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.384417171324638</data>
+		</edge>
+		<edge target="RB1" source="GPR180" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">RB1--|GPR180</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.4363</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">39.3343</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.110039732764778</data>
+		</edge>
+		<edge target="PITRM1" source="CCNE1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PITRM1--&gt;CCNE1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">3.88852</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">39.21608</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.382291082687596</data>
+		</edge>
+		<edge target="TSPYL5" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">TSPYL5--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.66999</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">35.42641</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.33323801078683</data>
+		</edge>
+		<edge target="OXCT1" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">OXCT1--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.48172</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">33.01238</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.34880720802901</data>
+		</edge>
+		<edge target="PALM2" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PALM2--&gt;tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.59068</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">32.33772</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.296774260936905</data>
+		</edge>
+		<edge target="MAPK14" source="MTDH" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">MAPK14--&gt;MTDH</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.55026</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">30.85564</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.293792790917751</data>
+		</edge>
+		<edge target="APOBEC3B" source="PRC1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">APOBEC3B--&gt;PRC1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.42467</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">26.00713</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.318662111259229</data>
+		</edge>
+		<edge target="tp53" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">tp53--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">GMPS</data>
+			<data key="complexity">4.36381</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">25.52419</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.240016234697586</data>
+		</edge>
+		<edge target="EGLN1" source="LIN9" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">EGLN1--&gt;LIN9</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.43784</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">25.05696</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.290583554835264</data>
+		</edge>
+		<edge target="FOXM1" source="RFC4" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">FOXM1--&gt;RFC4</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">GMPS</data>
+			<data key="complexity">4.25125</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">24.89755</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.333285249404571</data>
+		</edge>
+		<edge target="RUNDC1" source="CCNE1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">RUNDC1--|CCNE1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.25848</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">24.72592</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.263361529241535</data>
+		</edge>
+		<edge target="EXT1" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">EXT1--&gt;tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.61064</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">24.49366</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.264301164817298</data>
+		</edge>
+		<edge target="APOBEC3B" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">APOBEC3B--&gt;tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.57618</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">23.81122</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.259943776562778</data>
+		</edge>
+		<edge target="TGFA" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">TGFA--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.38076</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">23.78554</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.312549307756286</data>
+		</edge>
+		<edge target="LDHA" source="NDRG1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">LDHA--&gt;NDRG1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.53208</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">22.23162</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.2789898102243</data>
+		</edge>
+		<edge target="CCNE1" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CCNE1--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">CENPA</data>
+			<data key="complexity">4.03307</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">22.15563</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.26354352638318</data>
+		</edge>
+		<edge target="Ploidy" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Ploidy--&gt;tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">8</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.88756</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">22.15014</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.248580477853067</data>
+		</edge>
+		<edge target="GPR126" source="ECT2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">GPR126--&gt;ECT2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">7.859964</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.48569</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">19.64991</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.270920644907294</data>
+		</edge>
+		<edge target="DIAPH3" source="NDRG1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">DIAPH3--&gt;NDRG1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">7.612276</data>
+			<data key="upstream">GMPS</data>
+			<data key="complexity">4.29491</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">19.03069</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.248152931826551</data>
+		</edge>
+		<edge target="BRCA1" source="ECT2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">BRCA1--&gt;ECT2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">7.108656</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.55476</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">17.77164</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.251989144563051</data>
+		</edge>
+		<edge target="MELK" source="MCM6" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">MELK--&gt;MCM6</data>
+			<data key="edgeType">2</data>
+			<data key="weight">7.089108</data>
+			<data key="upstream">FOXM1</data>
+			<data key="complexity">3.95283</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">17.72277</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.277050227113088</data>
+		</edge>
+		<edge target="TP53" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">TP53--|tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">7.011372</data>
+			<data key="upstream">CENPA</data>
+			<data key="complexity">7.73397</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">17.52843</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.150235021854741</data>
+		</edge>
+		<edge target="RB1" source="CDKN2A" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">RB1--|CDKN2A</data>
+			<data key="edgeType">2</data>
+			<data key="weight">6.591304</data>
+			<data key="upstream">FOXM1</data>
+			<data key="complexity">6.89934</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">16.47826</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.304143989779483</data>
+		</edge>
+		<edge target="HRASLS" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">HRASLS--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">6.404764</data>
+			<data key="upstream">RFC4</data>
+			<data key="complexity">4.02729</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">16.01191</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.208720463662198</data>
+		</edge>
+		<edge target="MDM2" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">MDM2--|tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">6.018456</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.63996</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">15.04614</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.188415178571679</data>
+		</edge>
+		<edge target="NUSAP1" source="AURKA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">NUSAP1--&gt;AURKA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.914412</data>
+			<data key="upstream">PRC1</data>
+			<data key="complexity">4.14687</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">14.78603</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.243172524955936</data>
+		</edge>
+		<edge target="FLT1" source="SLC2A3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">FLT1--&gt;SLC2A3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.88958</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.93235</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">14.72395</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.331904354985894</data>
+		</edge>
+		<edge target="CENPA" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CENPA--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.885972</data>
+			<data key="upstream">AURKB,RFC4</data>
+			<data key="complexity">6.45667</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0</data>
+			<data key="log_confidence">14.71493</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.217652867856762</data>
+		</edge>
+		<edge target="FLT1" source="ESM1" directed="false">
+			<data key="label">FLT1---ESM1</data>
+			<data key="edgeType">1</data>
+			<data key="weight">5.626984</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.10704</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">1e-06</data>
+			<data key="log_confidence">14.06746</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.281558154615302</data>
+		</edge>
+		<edge target="CDKN2A" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CDKN2A--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.487672</data>
+			<data key="upstream">CCNE1</data>
+			<data key="complexity">3.85452</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">1e-06</data>
+			<data key="log_confidence">13.71918</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.116454032171269</data>
+		</edge>
+		<edge target="MYC" source="CENPA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">MYC--&gt;CENPA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.473972</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.30117</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">1e-06</data>
+			<data key="log_confidence">13.68493</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.244785902641741</data>
+		</edge>
+		<edge target="LATS2" source="SLC2A3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">LATS2--&gt;SLC2A3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.456064</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.88614</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">1e-06</data>
+			<data key="log_confidence">13.64016</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.330166968956608</data>
+		</edge>
+		<edge target="SLC2A3" source="ETS2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">SLC2A3--&gt;ETS2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.456064</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.88614</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">1e-06</data>
+			<data key="log_confidence">13.64016</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.330166968956608</data>
+		</edge>
+		<edge target="PTEN" source="AURKB" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">PTEN--|AURKB</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.365168</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.16038</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">2e-06</data>
+			<data key="log_confidence">13.41292</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.230227136714021</data>
+		</edge>
+		<edge target="PITRM1" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PITRM1--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.2106</data>
+			<data key="upstream">CCNE1</data>
+			<data key="complexity">6.2168</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">2e-06</data>
+			<data key="log_confidence">13.0265</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.200449702838252</data>
+		</edge>
+		<edge target="PALM2" source="CDCA7" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PALM2--&gt;CDCA7</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.069024</data>
+			<data key="upstream">tp53</data>
+			<data key="complexity">3.81554</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">3e-06</data>
+			<data key="log_confidence">12.67256</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.297988998645063</data>
+		</edge>
+		<edge target="ESM1" source="NDRG1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">ESM1--&gt;NDRG1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">5.066836</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.47571</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">3e-06</data>
+			<data key="log_confidence">12.66709</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.217655472174675</data>
+		</edge>
+		<edge target="BIRC3" source="ETS1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">BIRC3--&gt;ETS1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.645628</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.85573</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">9e-06</data>
+			<data key="log_confidence">11.61407</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.309593555256806</data>
+		</edge>
+		<edge target="tp53" source="TSPYL5" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">tp53--&gt;TSPYL5</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.578304</data>
+			<data key="upstream">FOXM1</data>
+			<data key="complexity">4.58754</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">1.1e-05</data>
+			<data key="log_confidence">11.44576</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.202404361816845</data>
+		</edge>
+		<edge target="AURKA" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">AURKA--&gt;tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.288496</data>
+			<data key="upstream">CENPA,FOXM1</data>
+			<data key="complexity">6.95276</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">2.3e-05</data>
+			<data key="log_confidence">10.72124</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.148165411197578</data>
+		</edge>
+		<edge target="DIAPH3" source="CHEK1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">DIAPH3--&gt;CHEK1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.243628</data>
+			<data key="upstream">FOXM1</data>
+			<data key="complexity">3.92233</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">2.5e-05</data>
+			<data key="log_confidence">10.60907</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.229270529342604</data>
+		</edge>
+		<edge target="PLK1" source="AURKB" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">PLK1--&gt;AURKB</data>
+			<data key="edgeType">2</data>
+			<data key="weight">4.069676</data>
+			<data key="upstream">FOXM1</data>
+			<data key="complexity">3.63591</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">3.9e-05</data>
+			<data key="log_confidence">10.17419</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.326982214549443</data>
+		</edge>
+		<edge target="SCUBE2" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">SCUBE2--|tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.883444</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.41439</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">6.2e-05</data>
+			<data key="log_confidence">9.70861</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.138220944815895</data>
+		</edge>
+		<edge target="DCK" source="CCNE2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">DCK--&gt;CCNE2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.87722</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.44835</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">6.3e-05</data>
+			<data key="log_confidence">9.69305</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.196452998203829</data>
+		</edge>
+		<edge target="TSPYL5" source="MTDH" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">TSPYL5--&gt;MTDH</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.821228</data>
+			<data key="upstream">GMPS</data>
+			<data key="complexity">4.72463</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">7.2e-05</data>
+			<data key="log_confidence">9.55307</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.172162123116894</data>
+		</edge>
+		<edge target="tspyl5" source="ccne2" directed="false">
+			<data key="label">tspyl5---ccne2</data>
+			<data key="edgeType">1</data>
+			<data key="weight">3.819568</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.08388</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">7.1e-05</data>
+			<data key="log_confidence">9.54892</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.631275943443267</data>
+		</edge>
+		<edge target="ETS2" source="CDKN1A" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">ETS2--&gt;CDKN1A</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.713184</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.91834</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">9.3e-05</data>
+			<data key="log_confidence">9.28296</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.261168514364908</data>
+		</edge>
+		<edge target="CENPA" source="RFC4" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CENPA--&gt;RFC4</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.61402</data>
+			<data key="upstream">FOXM1,tp53</data>
+			<data key="complexity">6.63465</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.00012</data>
+			<data key="log_confidence">9.03505</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.270796905668043</data>
+		</edge>
+		<edge target="FOXO1" source="SLC2A3" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">FOXO1--&gt;SLC2A3</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.487332</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.74847</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000165</data>
+			<data key="log_confidence">8.71833</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.287383339816677</data>
+		</edge>
+		<edge target="COL4A2" source="LATS2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">COL4A2--&gt;LATS2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.479032</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.84842</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.00017</data>
+			<data key="log_confidence">8.69758</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.266630316248637</data>
+		</edge>
+		<edge target="LDHA" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">LDHA--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.40958</data>
+			<data key="upstream">NDRG1</data>
+			<data key="complexity">4.27865</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000199</data>
+			<data key="log_confidence">8.52395</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.164605947908606</data>
+		</edge>
+		<edge target="PPP2R2A" source="Ploidy" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">PPP2R2A--|Ploidy</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.344088</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">5.01378</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000234</data>
+			<data key="log_confidence">8.36022</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.0787628226115881</data>
+		</edge>
+		<edge target="CDC42BPA" source="EGLN1" directed="false">
+			<data key="label">CDC42BPA---EGLN1</data>
+			<data key="edgeType">1</data>
+			<data key="weight">3.283484</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.45679</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000275</data>
+			<data key="log_confidence">8.20871</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.183647174259486</data>
+		</edge>
+		<edge target="NDRG1" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">NDRG1--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.277844</data>
+			<data key="upstream">tp53,DIAPH3</data>
+			<data key="complexity">7.01149</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000282</data>
+			<data key="log_confidence">8.19461</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.177364674160863</data>
+		</edge>
+		<edge target="TP73" source="CCNE2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">TP73--&gt;CCNE2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.264676</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.30211</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000295</data>
+			<data key="log_confidence">8.16169</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.188336634551595</data>
+		</edge>
+		<edge target="pitrm1" source="dck" directed="false">
+			<data key="label">pitrm1---dck</data>
+			<data key="edgeType">1</data>
+			<data key="weight">3.21134</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.20217</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000335</data>
+			<data key="log_confidence">8.02835</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.469350460820551</data>
+		</edge>
+		<edge target="CHEK1" source="FOXM1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CHEK1--&gt;FOXM1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.164456</data>
+			<data key="upstream">GMPS</data>
+			<data key="complexity">3.98096</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000372</data>
+			<data key="log_confidence">7.91114</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.235223983041402</data>
+		</edge>
+		<edge target="RUNDC1" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">RUNDC1--|tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.163264</data>
+			<data key="upstream">CCNE1</data>
+			<data key="complexity">6.44504</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000368</data>
+			<data key="log_confidence">7.90816</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.148598793967793</data>
+		</edge>
+		<edge target="esr1" source="recql5" directed="false">
+			<data key="label">esr1---recql5</data>
+			<data key="edgeType">1</data>
+			<data key="weight">3.144676</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.43791</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000392</data>
+			<data key="log_confidence">7.86169</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.371815154518973</data>
+		</edge>
+		<edge target="BRCA1" source="MTDH" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">BRCA1--&gt;MTDH</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.129328</data>
+			<data key="upstream">ECT2</data>
+			<data key="complexity">4.52088</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000404</data>
+			<data key="log_confidence">7.82332</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.149594448025343</data>
+		</edge>
+		<edge target="MCM6" source="rb1" directed="false">
+			<data key="label">MCM6---rb1</data>
+			<data key="edgeType">1</data>
+			<data key="weight">3.067304</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.14022</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000479</data>
+			<data key="log_confidence">7.66826</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.203147766039985</data>
+		</edge>
+		<edge target="BIRC3" source="APOBEC3B" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">BIRC3--&gt;APOBEC3B</data>
+			<data key="edgeType">2</data>
+			<data key="weight">3.008772</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.09349</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000543</data>
+			<data key="log_confidence">7.52193</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.207983675115959</data>
+		</edge>
+		<edge target="COL4A2" source="NDRG1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">COL4A2--&gt;NDRG1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.999904</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.26331</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000553</data>
+			<data key="log_confidence">7.49976</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.180052849677827</data>
+		</edge>
+		<edge target="USP7" source="BRCA1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">USP7--&gt;BRCA1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.841504</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.23114</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000828</data>
+			<data key="log_confidence">7.10376</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.174693573387188</data>
+		</edge>
+		<edge target="ppp2r1a" source="ldha" directed="false">
+			<data key="label">ppp2r1a---ldha</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.832952</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.19185</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.000869</data>
+			<data key="log_confidence">7.08238</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.468761949825218</data>
+		</edge>
+		<edge target="brca2" source="rundc1" directed="false">
+			<data key="label">brca2---rundc1</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.6825</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.5537</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001258</data>
+			<data key="log_confidence">6.70625</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.286897044647788</data>
+		</edge>
+		<edge target="ETS1" source="FOXO1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">ETS1--&gt;FOXO1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.669144</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.6892</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.00128</data>
+			<data key="log_confidence">6.67286</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.263675833396981</data>
+		</edge>
+		<edge target="bax" source="dck" directed="false">
+			<data key="label">bax---dck</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.658484</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.32334</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001327</data>
+			<data key="log_confidence">6.64621</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.350465528913361</data>
+		</edge>
+		<edge target="NDRG1" source="SLC2A3" directed="false">
+			<data key="label">NDRG1---SLC2A3</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.63424</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.30102</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001403</data>
+			<data key="log_confidence">6.5856</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.169953303722171</data>
+		</edge>
+		<edge target="CDKN1A" source="LATS2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CDKN1A--&gt;LATS2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.624636</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.91834</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001414</data>
+			<data key="log_confidence">6.56159</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.219350460576718</data>
+		</edge>
+		<edge target="cdc42bpa" source="ect2" directed="false">
+			<data key="label">cdc42bpa---ect2</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.567716</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.52813</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.00163</data>
+			<data key="log_confidence">6.41929</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.298114322012309</data>
+		</edge>
+		<edge target="aurka" source="gpr126" directed="false">
+			<data key="label">aurka---gpr126</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.538872</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.24995</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001808</data>
+			<data key="log_confidence">6.34718</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.404939450726171</data>
+		</edge>
+		<edge target="ldha" source="gpr126" directed="false">
+			<data key="label">ldha---gpr126</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.538872</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.24995</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001794</data>
+			<data key="log_confidence">6.34718</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.404939450726171</data>
+		</edge>
+		<edge target="MCM6" source="PLK1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">MCM6--&gt;PLK1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.538388</data>
+			<data key="upstream">FOXM1</data>
+			<data key="complexity">3.62639</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001813</data>
+			<data key="log_confidence">6.34597</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.238019158219006</data>
+		</edge>
+		<edge target="LATS2" source="WISP1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">LATS2--&gt;WISP1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.518336</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.55055</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001861</data>
+			<data key="log_confidence">6.29584</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.284672456084891</data>
+		</edge>
+		<edge target="Ploidy" source="AURKA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">Ploidy--&gt;AURKA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.51068</data>
+			<data key="upstream">tp53</data>
+			<data key="complexity">4.838</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.001895</data>
+			<data key="log_confidence">6.2767</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.1613542367697</data>
+		</edge>
+		<edge target="ndrg1" source="cdca7" directed="false">
+			<data key="label">ndrg1---cdca7</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.468224</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.24561</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.002106</data>
+			<data key="log_confidence">6.17056</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.404685340668907</data>
+		</edge>
+		<edge target="CCNE1" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CCNE1--&gt;tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.457832</data>
+			<data key="upstream">GMPS,CENPA</data>
+			<data key="complexity">6.65422</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.002145</data>
+			<data key="log_confidence">6.14458</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.122228892188033</data>
+		</edge>
+		<edge target="erbb2" source="tspyl5" directed="false">
+			<data key="label">erbb2---tspyl5</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.404716</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.38175</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.002526</data>
+			<data key="log_confidence">6.01179</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.304943010370939</data>
+		</edge>
+		<edge target="UBE3A" source="AURKA" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">UBE3A--|AURKA</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.397352</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.30542</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.002508</data>
+			<data key="log_confidence">5.99338</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.114884522006271</data>
+		</edge>
+		<edge target="ESR1" source="tp53" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">ESR1--|tp53</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.32476</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.48861</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.003007</data>
+			<data key="log_confidence">5.8119</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.128485541226573</data>
+		</edge>
+		<edge target="plk1" source="scube2" directed="false">
+			<data key="label">plk1---scube2</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.309328</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.27655</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.003156</data>
+			<data key="log_confidence">5.77332</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.373956771040939</data>
+		</edge>
+		<edge target="CDC42BPA" source="erbb2" directed="false">
+			<data key="label">CDC42BPA---erbb2</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.294476</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.22648</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.003227</data>
+			<data key="log_confidence">5.73619</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.166667474688663</data>
+		</edge>
+		<edge target="TGFA" source="GPR126" directed="false">
+			<data key="label">TGFA---GPR126</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.25534</data>
+			<data key="upstream">tp53</data>
+			<data key="complexity">3.86407</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.003706</data>
+			<data key="log_confidence">5.63835</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.211522973022708</data>
+		</edge>
+		<edge target="met" source="aurka" directed="false">
+			<data key="label">met---aurka</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.227192</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.31607</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.003844</data>
+			<data key="log_confidence">5.56798</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.344025267925174</data>
+		</edge>
+		<edge target="FGF18" source="TGFB3" directed="false">
+			<data key="label">FGF18---TGFB3</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.21886</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.95248</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.003899</data>
+			<data key="log_confidence">5.54715</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.198249100716113</data>
+		</edge>
+		<edge target="usp7" source="ect2" directed="false">
+			<data key="label">usp7---ect2</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.216012</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.28867</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.00404</data>
+			<data key="log_confidence">5.54003</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.360820420006753</data>
+		</edge>
+		<edge target="BRCA2" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">BRCA2--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.211408</data>
+			<data key="upstream">ECT2,DIAPH3</data>
+			<data key="complexity">6.72258</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.003992</data>
+			<data key="log_confidence">5.52852</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.0920691305875367</data>
+		</edge>
+		<edge target="ETS2" source="HIF1A" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">ETS2--&gt;HIF1A</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.187488</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.0321</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.004262</data>
+			<data key="log_confidence">5.46872</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.186590020468168</data>
+		</edge>
+		<edge target="ppp1r13l" source="flt1" directed="false">
+			<data key="label">ppp1r13l---flt1</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.175148</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.30371</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.004567</data>
+			<data key="log_confidence">5.43787</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.349140578929318</data>
+		</edge>
+		<edge target="ppp1r13l" source="gpr126" directed="false">
+			<data key="label">ppp1r13l---gpr126</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.175148</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.30371</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.004535</data>
+			<data key="log_confidence">5.43787</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.349140578929318</data>
+		</edge>
+		<edge target="RB1" source="OXCT1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">RB1--|OXCT1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.171364</data>
+			<data key="upstream">FOXM1</data>
+			<data key="complexity">7.10869</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.004391</data>
+			<data key="log_confidence">5.42841</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.103573473760594</data>
+		</edge>
+		<edge target="LIN9" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">LIN9--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.155256</data>
+			<data key="upstream">FOXM1,ECT2</data>
+			<data key="complexity">7.12596</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.004571</data>
+			<data key="log_confidence">5.38814</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.16869550965816</data>
+		</edge>
+		<edge target="nusap1" source="CCNE2" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">nusap1--&gt;CCNE2</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.133372</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.89888</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.004902</data>
+			<data key="log_confidence">5.33343</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.158171180496744</data>
+		</edge>
+		<edge target="brca1" source="PRC1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">brca1--&gt;PRC1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.123164</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">2.19795</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.00518</data>
+			<data key="log_confidence">5.30791</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.164193952256412</data>
+		</edge>
+		<edge target="HRASLS" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">HRASLS--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">2.115912</data>
+			<data key="upstream">RFC4,CENPA</data>
+			<data key="complexity">6.67482</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.005051</data>
+			<data key="log_confidence">5.28978</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.111412487489217</data>
+		</edge>
+		<edge target="bax" source="gpr126" directed="false">
+			<data key="label">bax---gpr126</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.104136</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.58623</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.005285</data>
+			<data key="log_confidence">5.26034</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.25493968126363</data>
+		</edge>
+		<edge target="usp7" source="esr1" directed="false">
+			<data key="label">usp7---esr1</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.057616</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.31961</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.005872</data>
+			<data key="log_confidence">5.14404</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.333208391558798</data>
+		</edge>
+		<edge target="BAX" source="PPP2R1A" directed="false">
+			<data key="label">BAX---PPP2R1A</data>
+			<data key="edgeType">1</data>
+			<data key="weight">2.016528</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.61541</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.006519</data>
+			<data key="log_confidence">5.04132</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.239598803796871</data>
+		</edge>
+		<edge target="DTL" source="NUSAP1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">DTL--&gt;NUSAP1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.976064</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.99488</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.007278</data>
+			<data key="log_confidence">4.94016</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.177043780077631</data>
+		</edge>
+		<edge target="GNAZ" source="RB1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">T</data>
+			<data key="label">GNAZ--|RB1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.962888</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.16463</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.007453</data>
+			<data key="log_confidence">4.90722</data>
+			<data key="sign">-</data>
+			<data key="partialCorrelation">-0.143781408543898</data>
+		</edge>
+		<edge target="STK32B" source="ESR1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">STK32B--&gt;ESR1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.955844</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.97705</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.007619</data>
+			<data key="log_confidence">4.88961</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.184134538777772</data>
+		</edge>
+		<edge target="CCNE2" source="GMPS" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">CCNE2--&gt;GMPS</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.924728</data>
+			<data key="upstream">ECT2,AURKA</data>
+			<data key="complexity">7.38128</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.00821</data>
+			<data key="log_confidence">4.81182</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.149497345796608</data>
+		</edge>
+		<edge target="ALDH4A1" source="ect2" directed="false">
+			<data key="label">ALDH4A1---ect2</data>
+			<data key="edgeType">1</data>
+			<data key="weight">1.910336</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.63276</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.008568</data>
+			<data key="log_confidence">4.77584</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.229278922556341</data>
+		</edge>
+		<edge target="pten" source="nusap1" directed="false">
+			<data key="label">pten---nusap1</data>
+			<data key="edgeType">1</data>
+			<data key="weight">1.871256</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.68671</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.009579</data>
+			<data key="log_confidence">4.67814</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.206053878494654</data>
+		</edge>
+		<edge target="HIF1A" source="EGLN1" directed="true">
+			<data key="sourceArrowShape">none</data>
+			<data key="targetArrowShape">arrow</data>
+			<data key="label">HIF1A--&gt;EGLN1</data>
+			<data key="edgeType">2</data>
+			<data key="weight">1.865164</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">4.07281</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.009439</data>
+			<data key="log_confidence">4.66291</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.159101670036096</data>
+		</edge>
+		<edge target="esr1" source="ect2" directed="false">
+			<data key="label">esr1---ect2</data>
+			<data key="edgeType">1</data>
+			<data key="weight">1.864112</data>
+			<data key="upstream">NA</data>
+			<data key="complexity">1.3556</data>
+			<data key="nSamples"></data>
+			<data key="confidenceRatio">0.009677</data>
+			<data key="log_confidence">4.66028</data>
+			<data key="sign">+</data>
+			<data key="partialCorrelation">0.303016756348792</data>
+		</edge>
+	</graph>
+</graphml>
+
